@@ -9,7 +9,6 @@ public class ProductPage extends BasePage{
 
     public ProductPage(WebDriver driver){
         super(driver);
-        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
